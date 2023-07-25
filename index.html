@@ -124,7 +124,7 @@
                             institue so that i can work the whole day and study tonight. This bootcamp is devided to 8
                             parts 1.5 months each. In the first part i learned Html, CSS, Javascript, NodeJs, dealing
                             with git and github, and dealing with Apis as well. In the second part i learned Typescript
-                            and angular. And now im learning Database and MongoDB.
+                            and angular. And now im learning MySql and MongoDB.
                         </p>
                     </div>
                 </div>
@@ -275,8 +275,8 @@
                             </div>
                             <p id="p3">
                                 In this javascript project the user have access only for the weather App.
-                                Where he can type the city name to display the temperature, wind-speed, and weather
-                                condition in an organized way at the screen.
+                                Where he can type the city name to check its temperature, wind-speed, or weather
+                                condition.
                             </p>
                             <button class="btn" id="mobile-apps" onclick="remove();displayProject(project1)">Read More<i
                                     class="fa fa-angle-right"></i></button>
@@ -299,11 +299,10 @@
                             <p id="p4">
                                 In this angular project the user can type the player's name he wants in the search bar
                                 above
-                                or choose him from the dropdown aside to see the Fifa 2023 ratings of the player. Will
-                                be updated soon!!
+                                or choose him from the dropdown aside to check the Fifa 2023 ratings of the player.
                             </p>
                             <button class="btn" id="fifa-card" onclick="remove();displayProject(project2)">Read More
-                                <iclass="fa fa-angle-right"></i></button>
+                                <i class="fa fa-angle-right"></i></button>
                         </div>
                     </div>
                 </div>
@@ -353,13 +352,10 @@
                 In this javascript project the user have access only for the weather App.
                 Where he can type the city name to display the temperature, wind-speed, and weather
                 condition in an organized way at the screen. <br> <br>
-                To get these data i called Apis that already exist on google for free.
-                The fisrt Api finds the latitude and longitude of the city given by the user in the website,
+                The fisrt Api gets the latitude and longitude of the city given by the user in the website,
                 and the second Api uses the data (long.&lat.) already fetched from the first one to get the weather
                 infos
                 of the corresponding city. <br> <br>
-                And inorder to force the second fetch to wait for the first fetch i used the
-                async/await method, otherwise i couldn't used the data from the first Api. <br> <br>
                 Other Apps will be added immediately once fineshed.
             </p>
             <form action="https://yakzancode.github.io/MobileApps/" method="get" target="_blank"><button class="view-btn" id="mobile-apps" ><span>View Project</span></button></form>
@@ -372,13 +368,7 @@
             <p id="p4">
                 In this angular project the user can type the player's name in the search bar
                 above or choose him from the dropdown list aside to see the Fifa 2023 ratings of the player.
-                To get the player list i created my own Api by an xlsx (excel) file from the internet and converting 
-                it to JSON , then i created a server for this JSON file and posted it on "Render.com".
-                I used the Output property to send the input typed in the search bar to the typescript file Where 
-                i created a function that fetch and gets data from the hosted Api. <br>
                 In the next update the user can custimize his own Player-Card and download it on his device. 
-                But for now i need to learn more abour routing in Angular to scroll between projects, and some Database 
-                to save the the user's input.
                 <br> Will be updated soon!!
             </p>
             <form action="https://yakzancode.github.io/FIFA23-Player-Card/" method="get" target="_blank"><button class="view-btn" id="fifa-card"><span>View Project</span></button></form>
