@@ -19,12 +19,18 @@ function remove(){
 }
 
 function displayProject(P){
+    var project1 = document.getElementById("project1");
+    var project2 = document.getElementById("project2");
+    project1.style.display = 'none';
+    project2.style.display = 'none';
     P.style.display = 'block'
 }
 
 
-
-
+function goBack() {
+    // history.go(-1);
+    window.history.back();
+}
 
 
 (function ($) {
