@@ -5,6 +5,7 @@ contact = document.getElementById("contact");
 project = document.getElementById("project");
 project1 = document.getElementById("project1");
 project2 = document.getElementById("project2");
+project3 = document.getElementById("project3");
 footer = document.getElementById("footer");
 nav = document.getElementById("nav");
 
@@ -21,8 +22,10 @@ function remove(){
 function displayProject(P){
     var project1 = document.getElementById("project1");
     var project2 = document.getElementById("project2");
+    var project3 = document.getElementById("project3");
     project1.style.display = 'none';
     project2.style.display = 'none';
+    project3.style.display = 'none';
     P.style.display = 'block'
 }
 
